@@ -60,3 +60,9 @@ docker system df
 ``
 docker system prune -f
 ``
+
+---------------------------------------
+-  docker pull selenium/standalone-chrome:latest
+-  docker images
+-  docker run -d -p 4444:4444 --shm-size="2g" selenium/standalone-chrome:latest
+-  docker ps
