@@ -4,12 +4,11 @@ Install Docker Desktop on Windows
 https://docs.docker.com/desktop/install/windows-install
 ``
 
-Docker Version Check
---------------------
+Docker Basic Commands (Command Prompt)
+--------------------------------------
 ``
-Command Prompt: docker version
+docker version
 ``
-
 ``
-Command Prompt: docker-compose version
+docker -v
 ``
