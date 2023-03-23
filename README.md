@@ -48,3 +48,15 @@ docker stop (Ex. docker stop CONTAINER ID)
 ``
 docker start (Ex. docker start CONTAINER ID)
 ``
+
+Docker System Commands (Command Prompt)
+---------------------------------------
+``
+docker stats
+``
+``
+docker system df
+``
+``
+docker system prune -f
+``
