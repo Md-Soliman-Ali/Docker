@@ -12,3 +12,12 @@ docker version
 ``
 docker -v
 ``
+``
+docker info
+``
+``
+docker --help
+``
+``
+docker login
+``
