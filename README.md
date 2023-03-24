@@ -69,8 +69,8 @@ docker system prune -f
 
 Docker with Selenium Grid (Project Dir)
 ---------------------------------------
-- docker-compose -f docker-compose.yml up
-- docker-compose -f docker-compose.yml up --scale chrome=2
+- docker-compose -f docker-compose.yaml up
+- docker-compose -f docker-compose.yaml up --scale chrome=2
 - docker images
 - docker ps
 - docker-compose down
