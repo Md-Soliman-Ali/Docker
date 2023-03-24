@@ -84,4 +84,11 @@ Download Jenkins
 ----------------
 - https://www.jenkins.io/download
 - Command Prompt -> java -jar jenkins.war --httpPort=9090
-
+- Jenkins -> Build Steps -> Execute Windows batch command
+-----------------------------------------
+``
+cd Project_Dir
+``
+``
+mvn clean install
+``
