@@ -76,5 +76,12 @@ Docker with Selenium Grid (Project Dir)
 - docker-compose down
 
 
----------------------------------------
+----------------------
 - Run As -> Maven test
+
+
+Download Jenkins
+----------------
+- https://www.jenkins.io/download
+- Command Prompt -> java -jar jenkins.war --httpPort=9090
+
