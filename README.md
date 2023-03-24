@@ -87,7 +87,7 @@ Download Jenkins
 - Jenkins -> Build Steps -> Execute Windows batch command
 -----------------------------------------
 ``
-cd Project_Dir
+cd Project_Directory
 ``
 ``
 mvn clean install
