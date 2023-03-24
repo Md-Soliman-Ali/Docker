@@ -74,3 +74,7 @@ Docker with Selenium Grid (Project Dir)
 - docker images
 - docker ps
 - docker-compose down
+
+
+---------------------------------------
+- Run As -> Maven test
