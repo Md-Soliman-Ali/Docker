@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-24T14:23:40 BDT" name="Suite" finished-at="2023-03-24T14:24:08 BDT" duration-ms="27953">
+    <groups>
+    </groups>
+    <test started-at="2023-03-24T14:23:40 BDT" name="Test" finished-at="2023-03-24T14:24:08 BDT" duration-ms="27953">
+      <class name="docker.SetupDockerGrid">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:docker.SetupDockerGrid@10feca44]" started-at="2023-03-24T14:23:40 BDT" name="startDockerGrid" finished-at="2023-03-24T14:23:55 BDT" duration-ms="15018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method is-config="true" signature="stopDockerGrid()[pri:0, instance:docker.SetupDockerGrid@10feca44]" started-at="2023-03-24T14:24:03 BDT" name="stopDockerGrid" finished-at="2023-03-24T14:24:08 BDT" duration-ms="5010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- docker.SetupDockerGrid -->
+      <class name="docker.ChromeTest">
+        <test-method signature="test()[pri:0, instance:docker.ChromeTest@581ac8a8]" started-at="2023-03-24T14:23:55 BDT" name="test" finished-at="2023-03-24T14:23:59 BDT" duration-ms="3487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- docker.ChromeTest -->
+      <class name="docker.FirefoxTest">
+        <test-method signature="test()[pri:0, instance:docker.FirefoxTest@6d4e5011]" started-at="2023-03-24T14:23:55 BDT" name="test" finished-at="2023-03-24T14:24:00 BDT" duration-ms="4887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- docker.FirefoxTest -->
+      <class name="docker.EdgeTest">
+        <test-method signature="test()[pri:0, instance:docker.EdgeTest@57d7f8ca]" started-at="2023-03-24T14:23:55 BDT" name="test" finished-at="2023-03-24T14:24:03 BDT" duration-ms="7888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- docker.EdgeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
