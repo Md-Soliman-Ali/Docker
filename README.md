@@ -66,3 +66,10 @@ docker system prune -f
 -  docker images
 -  docker run -d -p 4444:4444 --shm-size="2g" selenium/standalone-chrome:latest
 -  docker ps
+
+Docker with Selenium Grid (Project Dir)
+---------------------------------------
+- docker-compose -f docker-compose-v3-dev-channel.yml up
+- docker-compose -f docker-compose-v3-dev-channel.yml up --scale chrome=2
+- docker images
+- docker ps
